@@ -1,0 +1,5 @@
+TITLE=test
+0		./bin/test -i ./input/in.0 -o o.0
+1	0	./bin/test -i o.0 -o o.1
+2	0	./bin/test -i o.0 -o o.2
+3	1,2	./bin/test -i o.1,o.2 -o o.3

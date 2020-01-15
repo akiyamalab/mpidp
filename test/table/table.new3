@@ -1,0 +1,9 @@
+TITLE=test
+2		./bin/test -i ./input/in.0 -o o.2
+3	2	./bin/test -i ./input/in.1 -o o.3
+4	2	./bin/test -i ./input/in.2 -o o.4
+5	3,4	./bin/test -i ./input/in.1,./input/in.2 -o o.5
+6	5	./bin/test -i o.5 -o o.6
+7	5	./bin/test -i o.5 -o o.7
+8	5	./bin/test -i o.5 -o o.8
+9	6,7,8	./bin/test -i o.7,o.8 -o o.9

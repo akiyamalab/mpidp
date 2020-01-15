@@ -1,0 +1,9 @@
+TITLE=test
+2		ls -lh > ls_out.2
+3	2	ls -lh > ls_out.3
+4	2	ls -lh > ls_out.4
+5	3,4	ls -lh > ls_out.5
+6	5	ls -lh > ls_out.6
+7	5	ls -lh > ls_out.7
+8	5	ls -lh > ls_out.8
+9	6,7,8	ls -lh > ls_out.9
